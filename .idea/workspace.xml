@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f60fd6-af65-4c40-b847-d2d1c2baeb9c" name="变更" comment="基本框架">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/交互图.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/类图.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/系统用例模型.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/DTO/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/DTO/CartItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/gtouck/bookstore/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forntend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_bookstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/online_bookstore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.tld" beforeDir="false" afterPath="$PROJECT_DIR$/pom.tld" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +46,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="UML Class" />
+        <option value="UML Use Case" />
+        <option value="UML Activity" />
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +64,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2NJUoF1ZsznbwcPAl1hRqRLqshL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +85,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -62,7 +104,9 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright.filetypes.SVG",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "spring.configuration.checksum": "b43fdd98b1fd705ae4c3a10cf25aad8a",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -71,14 +115,44 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gtouck.bookstore.model" />
+      <recent name="com.gtouck.bookstore.controller.DTO" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gtouck.bookstore.DTO" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn liquibase:update" />
+      <command value="mvn install" />
+      <command value="mvn liquibase:createChangeLog -Dliquibase.changelogFile=db/changelog/db.changelog.xml" />
+      <command value="mvn liquibase:generateChangeLog" />
+      <command value="mvn liquibase:generateChangeLog -Dliquibase.changelogFile=db/changelog/db.changelog.xml" />
+      <command value="mvn liquibase:generateChangeLog db/changelog/db.changelog.xml" />
+      <command value="mvn liquibase:generateChangeLog -Dliquibase.changelogFile=db/changelog/db.changelog-master.xml" />
+      <command value="mvn liquibase:generateChangeLog -Dliquibase.changelogFile=src/main/resources/db/changelog/db.changelog-master.xml" />
       <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="online_bookstore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="online_bookstore" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="backend" />
@@ -96,7 +170,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679381856369</updated>
-      <workItem from="1679381858085" duration="16625000" />
+      <workItem from="1679381858085" duration="25917000" />
+      <workItem from="1679472244249" duration="3882000" />
+      <workItem from="1679500359390" duration="2550000" />
+      <workItem from="1679560353712" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="基本框架">
       <created>1679392502310</created>
@@ -105,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679392502310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基本框架">
+      <created>1679409927303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679409927303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +198,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本框架" />
     <option name="LAST_COMMIT_MESSAGE" value="基本框架" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

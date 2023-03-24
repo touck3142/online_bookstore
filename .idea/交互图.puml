@@ -1,0 +1,10 @@
+@startuml
+
+actor 用户 as user
+participant 系统 as system
+
+user -> system: 输入关键字
+system -> system: 查找书籍
+system --> user: 显示搜索结果
+
+@enduml

@@ -1,0 +1,67 @@
+@startuml
+
+class User {
+    -id: Long
+    -username: String
+    -password: String
+    -email: String
+    +User()
+}
+
+class Customer {
+    -name: String
+    -phone: String
+    -address: String
+}
+
+class Administrator {
+    - name: String
+}
+
+class Book {
+    -id: Long
+    -title: String
+    -author: String
+    -price: Double
+    -stock: Integer
+    -description: String
+    +Book()
+}
+
+class Order {
+    -id: Long
+    -customer: Customer
+    -orderItems: Set<OrderItem>
+    -status: String
+    -orderDate: LocalDateTime
+    +Order()
+}
+
+class OrderItem {
+    -id: Long
+    -order: Order
+    -book: Book
+    -quantity: Integer
+    -price: Double
+    +OrderItem()
+}
+
+class CartItem {
+    -id: Long
+    -user: User
+    -book: Book
+    -quantity: Integer
+    +CartItem()
+}
+
+User <|-- Customer
+User <|-- Administrator
+
+OrderItem "1" -- "0..*" CartItem : contains
+Order "1" -- "0..*" OrderItem : has
+Customer "1" -- "0..*" Order : places
+Customer "1" -- "0..*" CartItem : has
+Book "1" -- "0..*" OrderItem : in
+Book "1" -- "0..*" CartItem : in
+
+@enduml
